@@ -1,0 +1,28 @@
+.addoptionError {
+    color: $offwhite;
+    font-style: italic;
+    padding: 0 $remvalue;
+    margin: $remvalue 0 0 0;
+}
+.addoption {
+    display: flex;
+    flex-direction: column;
+    padding: $remvalue;
+}
+.addoption__input {
+    flex-grow: 1;
+    background-color: $bgdark-blue;
+    color:$offwhite;
+    border: none;
+    border-bottom: .3rem solid darken($color: $bgdark-blue, $amount: 10%);
+    padding: 0 $remvalue;
+    margin: 0 0 $remvalue 0;
+}
+@media (min-width:$desktop) {
+    .addoption{
+        flex-direction: row;
+    }
+    .addoption__input{
+        margin: 0 $remvalue 0 0;
+    }
+}

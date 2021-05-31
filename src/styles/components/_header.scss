@@ -1,0 +1,22 @@
+.Header {
+    background-color:$offblack;
+    margin-bottom: 2*$remvalue; //eq to 48px
+    padding: $remvalue 0;
+    color:white;
+}
+//BEM block element modifier
+.Header__title {
+    font-size: 2*$remvalue;
+    margin: 0;
+}
+.Header__subtitle {
+    color: $offwhite;
+    font-size: $remvalue;
+    font-weight: 500;
+    margin: 0;
+}
+@media (min-width: $desktop) {
+    .Header {
+        margin-bottom:3*$remvalue ;
+    }
+}

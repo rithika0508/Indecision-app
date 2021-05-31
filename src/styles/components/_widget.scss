@@ -1,0 +1,26 @@
+.widget {
+    background: $lightblue;
+    margin-bottom: 3*$remvalue;
+}
+
+//create a widget eleent selecor
+.widget-selector {
+    color:$offwhite;
+    margin: 0;
+    padding:$remvalue;
+    text-align: center;
+    border-bottom: 1px solid lighten($color: $lightblue, $amount: 10%);
+    // font-weight: bold;
+    font-size: 2*$remvalue;
+}
+
+.widget-header {
+    display: flex;
+    background-color: $blue;
+    color:$offwhite;
+    padding: $remvalue;
+    justify-content: space-between;
+}
+.widget-header__title{
+    margin: 0;
+}
